@@ -1,4 +1,4 @@
-const checkEvenOdd = (num) => num % 2 === 0 ? "Even" : "Odd";
+const checkEvenOdd = num => num % 2 === 0 ? "Even" : "Odd";
 
 /* function call to check number is even or odd */
 console.log(checkEvenOdd(10)); // Output: Even
