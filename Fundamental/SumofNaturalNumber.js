@@ -1,5 +1,2 @@
-const sumOfNaturalNumber = n => {
-    if (n <= 0) return 0;
-    return n + sumOfNaturalNumber(n - 1);
-}
-console.log(sumOfNaturalNumber(5)); // Output: 15
+const sumOfNaturalNumber = n => n <= 0 ? 0 : n === 1 ? 1 : n + sumOfNaturalNumber(n-1);
+console.log(sumOfNaturalNumber(5)); // Output: 15 
